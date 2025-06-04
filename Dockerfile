@@ -12,3 +12,4 @@ RUN apk add --no-cache ffmpeg \
 ENV PATH="/opt/venv/bin:$PATH"
 
 USER root
+EXPOSE 5678
